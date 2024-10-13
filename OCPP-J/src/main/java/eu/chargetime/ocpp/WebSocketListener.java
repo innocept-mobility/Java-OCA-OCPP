@@ -165,10 +165,10 @@ public class WebSocketListener implements Listener {
                   }
                 }
               }
-              if (password == null
+              /*if (password == null
                   || password.length < configuration.getParameter(JSONConfiguration.OCPPJ_CP_MIN_PASSWORD_LENGTH, OCPPJ_CP_MIN_PASSWORD_LENGTH)
                   || password.length > configuration.getParameter(JSONConfiguration.OCPPJ_CP_MAX_PASSWORD_LENGTH, OCPPJ_CP_MAX_PASSWORD_LENGTH))
-                throw new InvalidDataException(401, "Invalid password length");
+                throw new InvalidDataException(401, "Invalid password length");*/
             }
 
             try {
