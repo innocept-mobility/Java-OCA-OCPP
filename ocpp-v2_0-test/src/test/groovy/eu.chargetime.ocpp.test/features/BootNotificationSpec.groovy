@@ -1,7 +1,7 @@
 package eu.chargetime.ocpp.test.features
 
 import eu.chargetime.ocpp.test.base.json.BaseSpec
-import eu.chargetime.ocpp.test.features.BootNotification
+import de.innocept.ocpp.test.features.BootNotification
 import spock.util.concurrent.PollingConditions
 
 class BootNotificationSpec extends BaseSpec

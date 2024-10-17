@@ -1,7 +1,7 @@
 package eu.chargetime.ocpp.test.base.json
 
-import eu.chargetime.ocpp.test.FakeCentralSystem
-import eu.chargetime.ocpp.test.FakeChargePoint
+import de.innocept.ocpp.test.FakeCentralSystem
+import de.innocept.ocpp.test.FakeChargePoint
 import spock.lang.Shared
 import spock.lang.Specification
 

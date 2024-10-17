@@ -1,5 +1,6 @@
 package eu.chargetime.ocpp.test.features
 
+import de.innocept.ocpp.test.features.GetVariables
 import eu.chargetime.ocpp.test.base.json.BaseSpec
 import spock.util.concurrent.PollingConditions
 
